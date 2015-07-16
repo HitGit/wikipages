@@ -1,0 +1,11 @@
+<h1>New phone number for <%= @phone.contact.name %></h1>
+
+<%= render('layouts/errors', :object => @phone) %>
+
+<form action="/contacts/<%= @contact.id %>/phones" method="post">
+  <%= render('form') %>
+  <button>Add phone</button>
+</form>
+
+
+<!--contacts/:contact_id/phones/new-->

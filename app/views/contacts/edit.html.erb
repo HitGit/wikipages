@@ -1,0 +1,19 @@
+<% content_for(:title, "Edit contact | Wikipages") %>
+
+<h1>Edit contact</h1>
+
+<form action="/contacts/<%= @contact.id %>" method="post">
+  <input name="_method" type="hidden" value="patch">
+
+<%= render('form') %>
+
+<button>Update contact</button>
+
+</form>
+
+
+
+
+
+
+

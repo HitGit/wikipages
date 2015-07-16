@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="PostgreSQL - wikipages_development@localhost" uuid="84b40b48-d8d7-41ab-847a-35496ec6b9eb">
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <schema-pattern>wikipages_development.pg_catalog wikipages_development.public</schema-pattern>
+      <default-schemas>wikipages_development.pg_catalog wikipages_development.public</default-schemas>
+    </data-source>
+    <data-source name="PostgreSQL - wikipages_test@localhost" uuid="9263bd17-365a-43ad-a0ab-8be054e155be">
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <schema-pattern>wikipages_test.pg_catalog wikipages_test.public</schema-pattern>
+      <default-schemas>wikipages_test.pg_catalog wikipages_test.public</default-schemas>
+    </data-source>
+    <data-source name="PostgreSQL - country@localhost" uuid="653cdc2e-96cf-4564-a668-1e4138d9d8c1">
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <schema-pattern>country.pg_catalog country.public</schema-pattern>
+      <default-schemas>country.pg_catalog country.public</default-schemas>
+    </data-source>
+  </component>
+</project>
